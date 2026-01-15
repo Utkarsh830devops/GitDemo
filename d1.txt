@@ -1,4 +1,4 @@
-this is new line code
+this is new line codeA
 this is second line code
 this is third line code and not required
 this is conflict line
