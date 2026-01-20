@@ -1,0 +1,7 @@
+---
+- hosts: all
+  tasks:
+  - name: checking ping functionality
+    ping:
+    remote_user: ansible
+...    

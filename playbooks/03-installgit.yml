@@ -1,0 +1,9 @@
+---
+- hosts: all
+  become: true
+  tasks:
+  - name: Installing GIT client
+    yum: 
+     name: git
+     state: latest
+...

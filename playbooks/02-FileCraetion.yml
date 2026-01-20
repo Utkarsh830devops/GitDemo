@@ -1,0 +1,8 @@
+---
+- hosts: all
+  tasks:
+  - name: creating file
+    File:
+     path: /c/Devopsparctice/
+     state: touch
+...
